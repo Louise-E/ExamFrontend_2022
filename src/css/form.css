@@ -1,0 +1,51 @@
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .form-control {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  .form-control input {
+    width: 50%;
+    font-size: 15px;
+  }
+  .form-control label,
+  .myButton,
+  .logOut {
+    font-size: 20px;
+  }
+  .myButton {
+    background-color: #17fc03;
+    color: black;
+    padding: 4px 0;
+  }
+  form input,
+  .logOut {
+    border: solid 2px white;
+    border-radius: 15px;
+  }
+  .formInput {
+    padding: 4px 10px;
+  }
+  .border {
+    border: solid 2px white;
+  }
+  .borderNoTop {
+    border-right: solid 2px white;
+    border-left: solid 2px white;
+    border-bottom: solid 2px white;
+    padding: 5px 0 25px 0;
+  }
+  .logOut {
+    width: 90%;
+    margin-top: 15px;
+    background-color: #fc0318;
+    border: solid 2px white;
+    color: white;
+    padding: 5px;
+  }

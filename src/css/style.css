@@ -1,0 +1,80 @@
+header,
+footer {
+    padding: 10px 0;
+}
+html {
+    overflow-y: scroll;
+}
+body {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 800px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    background-color: #ece8e8;
+    color: #020202;
+}
+
+.buttonLog{
+    background-color: white;
+    border: 2px solid cornflowerblue;
+    transition-duration: 0.5s;
+    color: black;
+}
+.buttonLog:hover{
+    background-color: cornflowerblue;
+    color:white;
+}
+.borderTopBottom{
+    border:3px solid grey;
+    background-color: #7c7878;
+}
+.errorPage{
+    border: 3px solid red;
+    background-color: white;
+    color: black;
+}
+.navBar{
+    background-color: grey;
+    overflow: hidden;
+}
+.navBar Link{
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px 15px;
+}
+.navBar Link:hover{
+    background-color: cornflowerblue;
+    color:black
+}
+.navbar Link:active{
+    background-color: cornflowerblue;
+    color:black;
+}
+
+.tableTimeline{
+    background-color: cornflowerblue;
+    color: black;
+    border-color: rgba(37, 37, 238, 0.51);
+    border-width: 10px;
+    overflow: hidden;
+}
+
+.tableAllTimelines{
+    background-color: cornflowerblue;
+    color: black;
+    border-color: rgba(37, 37, 238, 0.51);
+    border-width: 5px;
+}
+.btn-default{
+    background-color: rgba(37, 37, 238, 0.51);
+    border-color: cornflowerblue;
+    padding:10px;
+    color: black;
+}
+
+.timelineText{
+    font-family: "Times New Roman", toim, serif;
+    font-size: 24px;
+}
