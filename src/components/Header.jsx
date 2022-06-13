@@ -1,11 +1,11 @@
 import React from "react";
 
-const Header = () =>{
-    return(
-        <header className="borderTopBottom" >
-            <h5>Welcome to Timeline App</h5>
+const Header = () => {
+    return (
+        <header className="borderTopBottom">
+            <h5>Welcome to Festival App</h5>
             <br/>
-            <h6>Created by Louise Estrup, Oliver Jenbo, Timothy Mortensen og Annika Jespsersen</h6>
+            <h6>Created by Louise Estrup</h6>
         </header>
     )
 }
